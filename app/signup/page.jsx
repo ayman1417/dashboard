@@ -27,9 +27,7 @@ export default function SignUp() {
     async function register(values) {
         try {
 
-            console.log(values);
             const registeredUseer = await createUserWithEmailAndPassword(auth, values.email, values.password)
-            localStorage.setItem("id", JSON.stringify(registeredUseer.user.accessToken))
             toast.success('sign Up success', {
                 position: "bottom-right",
                 autoClose: 3000,

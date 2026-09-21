@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "title": "Lumen Court Classic",
+    "price": 98.99,
+    "description": "Low-top leather sneaker with a clean court-inspired profile and a durable rubber sole. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/leather,sneakers/all?lock=1",
+    "category": "Shoes",
+    "stock": 8,
+    "createdAt": "2025-09-28T04:55:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Vertex Storage Jars",
+    "price": 25.0,
+    "description": "Set of airtight glass storage jars that keep pantry staples fresh. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/glass,jars/all?lock=2",
+    "category": "Home",
+    "stock": 3,
+    "createdAt": "2026-07-30T11:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Vertex Running Belt",
+    "price": 24.0,
+    "description": "Lightweight waist belt with a zip pocket for phone, keys, and cards on runs. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/running,belt/all?lock=3",
+    "category": "Sports",
+    "stock": 15,
+    "createdAt": "2025-11-08T19:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Nova Bluetooth Speaker",
+    "price": 143.0,
+    "description": "Portable Bluetooth speaker with rich sound, a splash-resistant body, and up to 12 hours of battery. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/bluetooth,speaker/all?lock=4",
+    "category": "Electronics",
+    "stock": 12,
+    "createdAt": "2025-10-01T02:58:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Nova Hiking Boot",
+    "price": 107.99,
+    "description": "Waterproof hiking boot with ankle support and a deep-lug outsole for long trails. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/hiking,boots/all?lock=5",
+    "category": "Shoes",
+    "stock": 3,
+    "createdAt": "2026-08-15T05:21:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Atlas Power Bank",
+    "price": 34.0,
+    "description": "High-capacity power bank with fast charging and dual USB ports for phones and tablets. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/portable,charger/all?lock=6",
+    "category": "Electronics",
+    "stock": 25,
+    "createdAt": "2026-08-11T20:02:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Kite Mechanical Keyboard",
+    "price": 101.99,
+    "description": "Mechanical keyboard with tactile switches, backlit keys, and a durable aluminum frame. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/mechanical,keyboard/all?lock=7",
+    "category": "Electronics",
+    "stock": 5,
+    "createdAt": "2025-11-24T19:06:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Nova Cycling Gloves",
+    "price": 28.0,
+    "description": "Padded cycling gloves with breathable mesh and grip-enhancing palms. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/cycling,gloves/all?lock=8",
+    "category": "Sports",
+    "stock": 0,
+    "createdAt": "2026-08-24T11:24:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Urban Portable SSD",
+    "price": 45.0,
+    "description": "Pocket-sized portable SSD with fast USB-C transfer speeds and a shock-resistant shell. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/ssd,drive/all?lock=9",
+    "category": "Electronics",
+    "stock": 5,
+    "createdAt": "2026-06-11T14:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Urban Chino Pants",
+    "price": 52.99,
+    "description": "Slim-tapered chino pants in stretch cotton twill, smart for work and easy for weekends. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/chinos,pants/all?lock=10",
+    "category": "Clothing",
+    "stock": 3,
+    "createdAt": "2026-03-22T21:18:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Nova Card Holder",
+    "price": 22.99,
+    "description": "Minimal leather card holder that fits cards and folded cash in a pocket-friendly size. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/card,holder/all?lock=11",
+    "category": "Accessories",
+    "stock": 40,
+    "createdAt": "2026-09-04T02:18:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Zephyr Baseball Cap",
+    "price": 22.99,
+    "description": "Adjustable cotton baseball cap with an embroidered logo and a curved brim. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/baseball,cap/all?lock=12",
+    "category": "Accessories",
+    "stock": 3,
+    "createdAt": "2025-12-19T02:31:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Ridge Baseball Cap",
+    "price": 30.0,
+    "description": "Adjustable cotton baseball cap with an embroidered logo and a curved brim. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/baseball,cap/all?lock=13",
+    "category": "Accessories",
+    "stock": 5,
+    "createdAt": "2026-04-19T19:23:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Lumen Chino Pants",
+    "price": 79.99,
+    "description": "Slim-tapered chino pants in stretch cotton twill, smart for work and easy for weekends. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/chinos,pants/all?lock=14",
+    "category": "Clothing",
+    "stock": 15,
+    "createdAt": "2026-01-07T04:12:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Onyx Shaker Bottle",
+    "price": 10.0,
+    "description": "Leak-proof shaker bottle with a mixing ball and measurement markings for protein shakes. Available in Black.",
+    "image": "https://loremflickr.com/400/400/shaker,bottle/all?lock=15",
+    "category": "Sports",
+    "stock": 15,
+    "createdAt": "2026-02-27T04:00:00Z"
+  },
+  {
+    "id": 16,
+    "title": "Arden High-Top",
+    "price": 123.99,
+    "description": "High-top sneaker with ankle support and a padded collar for street style and court play. Available in Black.",
+    "image": "https://loremflickr.com/400/400/basketball,shoes/all?lock=16",
+    "category": "Shoes",
+    "stock": 5,
+    "createdAt": "2026-01-16T15:35:00Z"
+  },
+  {
+    "id": 17,
+    "title": "Atlas Yoga Mat",
+    "price": 42.0,
+    "description": "Non-slip yoga mat with extra cushioning for joints, easy to roll and carry. Available in Black.",
+    "image": "https://loremflickr.com/400/400/yoga,mat/all?lock=17",
+    "category": "Sports",
+    "stock": 12,
+    "createdAt": "2026-04-19T07:07:00Z"
+  },
+  {
+    "id": 18,
+    "title": "Urban Dumbbell Set",
+    "price": 109.99,
+    "description": "Adjustable dumbbell set with a secure locking system for home strength training. Available in White.",
+    "image": "https://loremflickr.com/400/400/dumbbells/all?lock=18",
+    "category": "Sports",
+    "stock": 40,
+    "createdAt": "2026-06-20T20:35:00Z"
+  },
+  {
+    "id": 19,
+    "title": "Zephyr Throw Blanket",
+    "price": 65.0,
+    "description": "Soft knit throw blanket, cozy over a sofa or bed. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/throw,blanket/all?lock=19",
+    "category": "Home",
+    "stock": 20,
+    "createdAt": "2026-04-09T21:37:00Z"
+  },
+  {
+    "id": 20,
+    "title": "Solace Webcam",
+    "price": 138.99,
+    "description": "Full HD webcam with autofocus and a built-in noise-reducing microphone for video calls. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/webcam/all?lock=20",
+    "category": "Electronics",
+    "stock": 5,
+    "createdAt": "2026-01-21T11:42:00Z"
+  },
+  {
+    "id": 21,
+    "title": "Vertex Flannel Shirt",
+    "price": 68.0,
+    "description": "Brushed cotton flannel shirt in a classic plaid, warm and easy to layer. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/flannel,shirt/all?lock=21",
+    "category": "Clothing",
+    "stock": 120,
+    "createdAt": "2026-05-10T23:51:00Z"
+  },
+  {
+    "id": 22,
+    "title": "Lumen French Press",
+    "price": 49.99,
+    "description": "Stainless steel French press coffee maker with a fine mesh filter, brews up to 8 cups. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/french,press/all?lock=22",
+    "category": "Home",
+    "stock": 3,
+    "createdAt": "2026-08-24T18:51:00Z"
+  },
+  {
+    "id": 23,
+    "title": "Arden Chelsea Boot",
+    "price": 98.99,
+    "description": "Ankle-high Chelsea boot with elastic side panels and a sturdy stacked heel. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/chelsea,boots/all?lock=23",
+    "category": "Shoes",
+    "stock": 8,
+    "createdAt": "2026-02-11T18:43:00Z"
+  },
+  {
+    "id": 24,
+    "title": "Onyx Portable SSD",
+    "price": 100.0,
+    "description": "Pocket-sized portable SSD with fast USB-C transfer speeds and a shock-resistant shell. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/ssd,drive/all?lock=24",
+    "category": "Electronics",
+    "stock": 25,
+    "createdAt": "2026-04-12T08:07:00Z"
+  },
+  {
+    "id": 25,
+    "title": "Atlas Portable SSD",
+    "price": 112.0,
+    "description": "Pocket-sized portable SSD with fast USB-C transfer speeds and a shock-resistant shell. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/ssd,drive/all?lock=25",
+    "category": "Electronics",
+    "stock": 8,
+    "createdAt": "2026-09-18T20:17:00Z"
+  },
+  {
+    "id": 26,
+    "title": "Kite Canvas Backpack",
+    "price": 39.0,
+    "description": "Roomy canvas backpack with a padded laptop sleeve and a water-resistant base. Available in Black.",
+    "image": "https://loremflickr.com/400/400/backpack/all?lock=26",
+    "category": "Accessories",
+    "stock": 8,
+    "createdAt": "2025-10-26T02:29:00Z"
+  },
+  {
+    "id": 27,
+    "title": "Urban Canvas Backpack",
+    "price": 102.99,
+    "description": "Roomy canvas backpack with a padded laptop sleeve and a water-resistant base. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/backpack/all?lock=27",
+    "category": "Accessories",
+    "stock": 25,
+    "createdAt": "2026-03-29T02:41:00Z"
+  },
+  {
+    "id": 28,
+    "title": "Ridge High-Top",
+    "price": 75.0,
+    "description": "High-top sneaker with ankle support and a padded collar for street style and court play. Available in White.",
+    "image": "https://loremflickr.com/400/400/basketball,shoes/all?lock=28",
+    "category": "Shoes",
+    "stock": 5,
+    "createdAt": "2026-03-29T16:57:00Z"
+  },
+  {
+    "id": 29,
+    "title": "Atlas Ceramic Mug Set",
+    "price": 18.99,
+    "description": "Set of four glazed ceramic mugs, dishwasher and microwave safe. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/ceramic,mugs/all?lock=29",
+    "category": "Home",
+    "stock": 25,
+    "createdAt": "2026-08-30T23:58:00Z"
+  },
+  {
+    "id": 30,
+    "title": "Lumen Tennis Racket",
+    "price": 83.99,
+    "description": "Graphite tennis racket with a balanced frame for control and power. Available in Black.",
+    "image": "https://loremflickr.com/400/400/tennis,racket/all?lock=30",
+    "category": "Sports",
+    "stock": 80,
+    "createdAt": "2025-10-16T01:14:00Z"
+  },
+  {
+    "id": 31,
+    "title": "Arden Resistance Bands",
+    "price": 14.99,
+    "description": "Set of five resistance bands in varying tensions for strength and mobility workouts. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/resistance,bands/all?lock=31",
+    "category": "Sports",
+    "stock": 25,
+    "createdAt": "2026-03-21T08:51:00Z"
+  },
+  {
+    "id": 32,
+    "title": "Vertex Sandal",
+    "price": 63.99,
+    "description": "Adjustable-strap sandal with a contoured footbed for comfort in warm weather. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/sandals/all?lock=32",
+    "category": "Shoes",
+    "stock": 20,
+    "createdAt": "2025-10-30T04:21:00Z"
+  },
+  {
+    "id": 33,
+    "title": "Ridge Cotton Bath Towels",
+    "price": 39.99,
+    "description": "Set of absorbent, quick-drying cotton bath towels with a soft, plush feel. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/bath,towels/all?lock=33",
+    "category": "Home",
+    "stock": 120,
+    "createdAt": "2026-04-15T22:57:00Z"
+  },
+  {
+    "id": 34,
+    "title": "Halo Wool Sweater",
+    "price": 97.99,
+    "description": "Warm knit sweater in a soft wool blend with ribbed cuffs and hem. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/wool,sweater/all?lock=34",
+    "category": "Clothing",
+    "stock": 60,
+    "createdAt": "2026-08-22T04:48:00Z"
+  },
+  {
+    "id": 35,
+    "title": "Solace Dumbbell Set",
+    "price": 97.99,
+    "description": "Adjustable dumbbell set with a secure locking system for home strength training. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/dumbbells/all?lock=35",
+    "category": "Sports",
+    "stock": 8,
+    "createdAt": "2026-09-09T11:21:00Z"
+  },
+  {
+    "id": 36,
+    "title": "Halo Wireless Earbuds",
+    "price": 133.0,
+    "description": "True wireless earbuds with Bluetooth pairing, a compact charging case, and up to 24 hours of total playtime. Available in Black.",
+    "image": "https://loremflickr.com/400/400/earbuds/all?lock=36",
+    "category": "Electronics",
+    "stock": 120,
+    "createdAt": "2026-07-10T23:38:00Z"
+  },
+  {
+    "id": 37,
+    "title": "Solace Shaker Bottle",
+    "price": 21.99,
+    "description": "Leak-proof shaker bottle with a mixing ball and measurement markings for protein shakes. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/shaker,bottle/all?lock=37",
+    "category": "Sports",
+    "stock": 120,
+    "createdAt": "2025-11-27T21:22:00Z"
+  },
+  {
+    "id": 38,
+    "title": "Vertex Foam Roller",
+    "price": 18.99,
+    "description": "High-density foam roller for muscle recovery and stretching. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/foam,roller/all?lock=38",
+    "category": "Sports",
+    "stock": 20,
+    "createdAt": "2026-01-31T18:27:00Z"
+  },
+  {
+    "id": 39,
+    "title": "Lumen Joggers",
+    "price": 50.0,
+    "description": "Tapered joggers with an elastic waistband, side pockets, and a soft brushed interior. Available in White.",
+    "image": "https://loremflickr.com/400/400/sweatpants/all?lock=39",
+    "category": "Clothing",
+    "stock": 60,
+    "createdAt": "2025-11-05T02:28:00Z"
+  },
+  {
+    "id": 40,
+    "title": "Atlas USB-C Hub",
+    "price": 23.0,
+    "description": "Multiport USB-C hub with HDMI, USB-A, and SD card slots plus pass-through charging. Available in Black.",
+    "image": "https://loremflickr.com/400/400/usb,hub/all?lock=40",
+    "category": "Electronics",
+    "stock": 25,
+    "createdAt": "2026-01-31T18:57:00Z"
+  },
+  {
+    "id": 41,
+    "title": "Solace Storage Basket",
+    "price": 19.99,
+    "description": "Woven storage basket with handles, great for blankets, toys, or laundry. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/woven,basket/all?lock=41",
+    "category": "Home",
+    "stock": 12,
+    "createdAt": "2026-09-01T00:39:00Z"
+  },
+  {
+    "id": 42,
+    "title": "Solace Resistance Bands",
+    "price": 12.99,
+    "description": "Set of five resistance bands in varying tensions for strength and mobility workouts. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/resistance,bands/all?lock=42",
+    "category": "Sports",
+    "stock": 120,
+    "createdAt": "2026-04-16T15:34:00Z"
+  },
+  {
+    "id": 43,
+    "title": "Kite Noise-Cancelling Headphones",
+    "price": 117.99,
+    "description": "Over-ear Bluetooth headphones with active noise cancellation and plush ear cushions. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/headphones/all?lock=43",
+    "category": "Electronics",
+    "stock": 8,
+    "createdAt": "2025-11-15T15:28:00Z"
+  },
+  {
+    "id": 44,
+    "title": "Vertex Bluetooth Speaker",
+    "price": 35.0,
+    "description": "Portable Bluetooth speaker with rich sound, a splash-resistant body, and up to 12 hours of battery. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/bluetooth,speaker/all?lock=44",
+    "category": "Electronics",
+    "stock": 8,
+    "createdAt": "2026-08-23T09:18:00Z"
+  },
+  {
+    "id": 45,
+    "title": "Lumen Crossbody Bag",
+    "price": 90.0,
+    "description": "Compact crossbody bag with an adjustable strap and zip pockets for daily essentials. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/crossbody,bag/all?lock=45",
+    "category": "Accessories",
+    "stock": 3,
+    "createdAt": "2025-09-29T01:15:00Z"
+  },
+  {
+    "id": 46,
+    "title": "Arden Court Classic",
+    "price": 92.99,
+    "description": "Low-top leather sneaker with a clean court-inspired profile and a durable rubber sole. Available in White.",
+    "image": "https://loremflickr.com/400/400/leather,sneakers/all?lock=46",
+    "category": "Shoes",
+    "stock": 40,
+    "createdAt": "2026-02-17T10:18:00Z"
+  },
+  {
+    "id": 47,
+    "title": "Lumen Yoga Mat",
+    "price": 53.0,
+    "description": "Non-slip yoga mat with extra cushioning for joints, easy to roll and carry. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/yoga,mat/all?lock=47",
+    "category": "Sports",
+    "stock": 12,
+    "createdAt": "2025-11-06T23:21:00Z"
+  },
+  {
+    "id": 48,
+    "title": "Lumen Trail Sneaker",
+    "price": 74.0,
+    "description": "Grippy trail sneaker with a rugged outsole and reinforced toe for uneven terrain. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/trail,shoes/all?lock=48",
+    "category": "Shoes",
+    "stock": 8,
+    "createdAt": "2025-12-18T08:24:00Z"
+  },
+  {
+    "id": 49,
+    "title": "Solace Leather Loafer",
+    "price": 156.99,
+    "description": "Slip-on leather loafer with a cushioned insole, ideal for the office or dinner out. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/leather,loafers/all?lock=49",
+    "category": "Shoes",
+    "stock": 15,
+    "createdAt": "2025-10-23T17:17:00Z"
+  },
+  {
+    "id": 50,
+    "title": "Kite Desk Lamp",
+    "price": 41.0,
+    "description": "LED desk lamp with adjustable brightness, color temperature, and a flexible neck. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/desk,lamp/all?lock=50",
+    "category": "Home",
+    "stock": 5,
+    "createdAt": "2026-05-07T16:55:00Z"
+  },
+  {
+    "id": 51,
+    "title": "Arden Cutting Board",
+    "price": 54.99,
+    "description": "Solid acacia wood cutting board with a juice groove and an easy-grip handle. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/cutting,board/all?lock=51",
+    "category": "Home",
+    "stock": 120,
+    "createdAt": "2026-07-20T02:42:00Z"
+  },
+  {
+    "id": 52,
+    "title": "Lumen Wall Clock",
+    "price": 20.99,
+    "description": "Silent quartz wall clock with a minimalist face that's easy to read. Available in White.",
+    "image": "https://loremflickr.com/400/400/wall,clock/all?lock=52",
+    "category": "Home",
+    "stock": 60,
+    "createdAt": "2026-07-02T15:26:00Z"
+  },
+  {
+    "id": 53,
+    "title": "Onyx Analog Watch",
+    "price": 144.99,
+    "description": "Analog quartz watch with a stainless steel case and a leather strap. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/wristwatch/all?lock=53",
+    "category": "Accessories",
+    "stock": 60,
+    "createdAt": "2025-11-02T05:55:00Z"
+  },
+  {
+    "id": 54,
+    "title": "Vertex Polo Shirt",
+    "price": 42.99,
+    "description": "Breathable piqu\u00e9 polo shirt with a two-button placket and a classic collar. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/polo,shirt/all?lock=54",
+    "category": "Clothing",
+    "stock": 25,
+    "createdAt": "2026-08-14T05:18:00Z"
+  },
+  {
+    "id": 55,
+    "title": "Zephyr Leather Wallet",
+    "price": 39.99,
+    "description": "Slim bifold leather wallet with multiple card slots and a full-length bill compartment. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/leather,wallet/all?lock=55",
+    "category": "Accessories",
+    "stock": 120,
+    "createdAt": "2026-07-06T04:43:00Z"
+  },
+  {
+    "id": 56,
+    "title": "Nova Scented Candle",
+    "price": 17.0,
+    "description": "Hand-poured soy wax candle with a long, clean burn of about 40 hours. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/scented,candle/all?lock=56",
+    "category": "Home",
+    "stock": 15,
+    "createdAt": "2026-04-21T11:14:00Z"
+  },
+  {
+    "id": 57,
+    "title": "Nova Jump Rope",
+    "price": 11.0,
+    "description": "Speed jump rope with ball bearings and an adjustable cable for cardio workouts. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/jump,rope/all?lock=57",
+    "category": "Sports",
+    "stock": 60,
+    "createdAt": "2026-08-11T10:12:00Z"
+  },
+  {
+    "id": 58,
+    "title": "Solace Hiking Boot",
+    "price": 107.99,
+    "description": "Waterproof hiking boot with ankle support and a deep-lug outsole for long trails. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/hiking,boots/all?lock=58",
+    "category": "Shoes",
+    "stock": 20,
+    "createdAt": "2026-01-21T08:53:00Z"
+  },
+  {
+    "id": 59,
+    "title": "Halo Smart Watch",
+    "price": 310.99,
+    "description": "Smart watch with heart-rate tracking, sleep monitoring, notifications, and a bright always-on display. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/smartwatch/all?lock=59",
+    "category": "Electronics",
+    "stock": 3,
+    "createdAt": "2026-04-01T23:55:00Z"
+  },
+  {
+    "id": 60,
+    "title": "Lumen Dumbbell Set",
+    "price": 49.99,
+    "description": "Adjustable dumbbell set with a secure locking system for home strength training. Available in Black.",
+    "image": "https://loremflickr.com/400/400/dumbbells/all?lock=60",
+    "category": "Sports",
+    "stock": 40,
+    "createdAt": "2026-01-04T19:18:00Z"
+  },
+  {
+    "id": 61,
+    "title": "Vertex Gym Duffel",
+    "price": 28.99,
+    "description": "Spacious gym duffel bag with a ventilated shoe compartment and a padded strap. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/gym,bag/all?lock=61",
+    "category": "Sports",
+    "stock": 8,
+    "createdAt": "2026-04-07T16:43:00Z"
+  },
+  {
+    "id": 62,
+    "title": "Zephyr Flannel Shirt",
+    "price": 75.99,
+    "description": "Brushed cotton flannel shirt in a classic plaid, warm and easy to layer. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/flannel,shirt/all?lock=62",
+    "category": "Clothing",
+    "stock": 5,
+    "createdAt": "2026-05-01T10:09:00Z"
+  },
+  {
+    "id": 63,
+    "title": "Onyx Wall Clock",
+    "price": 52.99,
+    "description": "Silent quartz wall clock with a minimalist face that's easy to read. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/wall,clock/all?lock=63",
+    "category": "Home",
+    "stock": 12,
+    "createdAt": "2026-09-03T20:25:00Z"
+  },
+  {
+    "id": 64,
+    "title": "Urban Beanie",
+    "price": 24.99,
+    "description": "Stretchy knit beanie with a fold-over cuff, soft and warm for winter. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/beanie/all?lock=64",
+    "category": "Accessories",
+    "stock": 40,
+    "createdAt": "2025-11-12T06:03:00Z"
+  },
+  {
+    "id": 65,
+    "title": "Ridge Jump Rope",
+    "price": 28.0,
+    "description": "Speed jump rope with ball bearings and an adjustable cable for cardio workouts. Available in White.",
+    "image": "https://loremflickr.com/400/400/jump,rope/all?lock=65",
+    "category": "Sports",
+    "stock": 3,
+    "createdAt": "2026-08-17T16:14:00Z"
+  },
+  {
+    "id": 66,
+    "title": "Urban Storage Basket",
+    "price": 23.99,
+    "description": "Woven storage basket with handles, great for blankets, toys, or laundry. Available in Black.",
+    "image": "https://loremflickr.com/400/400/woven,basket/all?lock=66",
+    "category": "Home",
+    "stock": 8,
+    "createdAt": "2026-02-02T16:44:00Z"
+  },
+  {
+    "id": 67,
+    "title": "Ridge Webcam",
+    "price": 89.99,
+    "description": "Full HD webcam with autofocus and a built-in noise-reducing microphone for video calls. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/webcam/all?lock=67",
+    "category": "Electronics",
+    "stock": 0,
+    "createdAt": "2026-05-05T14:54:00Z"
+  },
+  {
+    "id": 68,
+    "title": "Zephyr Running Belt",
+    "price": 20.99,
+    "description": "Lightweight waist belt with a zip pocket for phone, keys, and cards on runs. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/running,belt/all?lock=68",
+    "category": "Sports",
+    "stock": 120,
+    "createdAt": "2026-04-30T14:40:00Z"
+  },
+  {
+    "id": 69,
+    "title": "Zephyr Storage Jars",
+    "price": 45.0,
+    "description": "Set of airtight glass storage jars that keep pantry staples fresh. Available in Black.",
+    "image": "https://loremflickr.com/400/400/glass,jars/all?lock=69",
+    "category": "Home",
+    "stock": 0,
+    "createdAt": "2026-04-23T04:53:00Z"
+  },
+  {
+    "id": 70,
+    "title": "Nova Leather Wallet",
+    "price": 55.99,
+    "description": "Slim bifold leather wallet with multiple card slots and a full-length bill compartment. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/leather,wallet/all?lock=70",
+    "category": "Accessories",
+    "stock": 25,
+    "createdAt": "2026-09-05T15:35:00Z"
+  },
+  {
+    "id": 71,
+    "title": "Lumen Card Holder",
+    "price": 13.99,
+    "description": "Minimal leather card holder that fits cards and folded cash in a pocket-friendly size. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/card,holder/all?lock=71",
+    "category": "Accessories",
+    "stock": 20,
+    "createdAt": "2026-07-25T09:01:00Z"
+  },
+  {
+    "id": 72,
+    "title": "Zephyr Puffer Vest",
+    "price": 58.0,
+    "description": "Lightweight insulated puffer vest that adds core warmth without bulk. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/puffer,vest/all?lock=72",
+    "category": "Clothing",
+    "stock": 8,
+    "createdAt": "2026-05-09T10:49:00Z"
+  },
+  {
+    "id": 73,
+    "title": "Onyx Sandal",
+    "price": 65.0,
+    "description": "Adjustable-strap sandal with a contoured footbed for comfort in warm weather. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/sandals/all?lock=73",
+    "category": "Shoes",
+    "stock": 12,
+    "createdAt": "2026-06-09T19:29:00Z"
+  },
+  {
+    "id": 74,
+    "title": "Atlas Polo Shirt",
+    "price": 65.0,
+    "description": "Breathable piqu\u00e9 polo shirt with a two-button placket and a classic collar. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/polo,shirt/all?lock=74",
+    "category": "Clothing",
+    "stock": 5,
+    "createdAt": "2026-02-28T20:50:00Z"
+  },
+  {
+    "id": 75,
+    "title": "Arden Canvas Sneaker",
+    "price": 41.99,
+    "description": "Classic canvas sneaker with a vulcanized rubber sole and a lightweight, breathable fit. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/canvas,shoes/all?lock=75",
+    "category": "Shoes",
+    "stock": 15,
+    "createdAt": "2026-01-17T13:50:00Z"
+  },
+  {
+    "id": 76,
+    "title": "Onyx Hoodie",
+    "price": 42.99,
+    "description": "Midweight fleece-lined hoodie with a kangaroo pocket and an adjustable drawstring hood. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/hoodie/all?lock=76",
+    "category": "Clothing",
+    "stock": 12,
+    "createdAt": "2026-01-15T16:03:00Z"
+  },
+  {
+    "id": 77,
+    "title": "Ridge Cotton T-Shirt",
+    "price": 14.99,
+    "description": "Soft 100% cotton crew-neck t-shirt with a true-to-size, everyday fit. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/tshirt/all?lock=77",
+    "category": "Clothing",
+    "stock": 120,
+    "createdAt": "2026-07-29T19:13:00Z"
+  },
+  {
+    "id": 78,
+    "title": "Urban Wool Scarf",
+    "price": 36.99,
+    "description": "Soft woven wool scarf, long enough to wrap twice for cold-weather warmth. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/wool,scarf/all?lock=78",
+    "category": "Accessories",
+    "stock": 3,
+    "createdAt": "2026-07-17T10:33:00Z"
+  },
+  {
+    "id": 79,
+    "title": "Halo Canvas Sneaker",
+    "price": 31.0,
+    "description": "Classic canvas sneaker with a vulcanized rubber sole and a lightweight, breathable fit. Available in Black.",
+    "image": "https://loremflickr.com/400/400/canvas,shoes/all?lock=79",
+    "category": "Shoes",
+    "stock": 8,
+    "createdAt": "2025-10-01T18:02:00Z"
+  },
+  {
+    "id": 80,
+    "title": "Urban Runner",
+    "price": 133.99,
+    "description": "Lightweight running shoe with a cushioned midsole and breathable mesh upper for daily miles. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/running,shoes/all?lock=80",
+    "category": "Shoes",
+    "stock": 120,
+    "createdAt": "2025-11-26T10:24:00Z"
+  },
+  {
+    "id": 81,
+    "title": "Kite Power Bank",
+    "price": 24.0,
+    "description": "High-capacity power bank with fast charging and dual USB ports for phones and tablets. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/portable,charger/all?lock=81",
+    "category": "Electronics",
+    "stock": 5,
+    "createdAt": "2026-05-08T04:14:00Z"
+  },
+  {
+    "id": 82,
+    "title": "Urban Desk Lamp",
+    "price": 25.99,
+    "description": "LED desk lamp with adjustable brightness, color temperature, and a flexible neck. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/desk,lamp/all?lock=82",
+    "category": "Home",
+    "stock": 40,
+    "createdAt": "2026-06-24T04:52:00Z"
+  },
+  {
+    "id": 83,
+    "title": "Halo Denim Jacket",
+    "price": 95.99,
+    "description": "Classic denim jacket with a button front, chest pockets, and a slightly relaxed fit. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/denim,jacket/all?lock=83",
+    "category": "Clothing",
+    "stock": 20,
+    "createdAt": "2026-08-06T12:35:00Z"
+  },
+  {
+    "id": 84,
+    "title": "Lumen Ceramic Mug Set",
+    "price": 24.99,
+    "description": "Set of four glazed ceramic mugs, dishwasher and microwave safe. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/ceramic,mugs/all?lock=84",
+    "category": "Home",
+    "stock": 20,
+    "createdAt": "2026-03-17T12:03:00Z"
+  },
+  {
+    "id": 85,
+    "title": "Atlas Rain Jacket",
+    "price": 120.99,
+    "description": "Waterproof, packable rain jacket with taped seams and an adjustable hood. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/rain,jacket/all?lock=85",
+    "category": "Clothing",
+    "stock": 60,
+    "createdAt": "2025-12-20T20:28:00Z"
+  },
+  {
+    "id": 86,
+    "title": "Arden Card Holder",
+    "price": 42.99,
+    "description": "Minimal leather card holder that fits cards and folded cash in a pocket-friendly size. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/card,holder/all?lock=86",
+    "category": "Accessories",
+    "stock": 12,
+    "createdAt": "2026-09-07T16:51:00Z"
+  },
+  {
+    "id": 87,
+    "title": "Halo Power Bank",
+    "price": 66.0,
+    "description": "High-capacity power bank with fast charging and dual USB ports for phones and tablets. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/portable,charger/all?lock=87",
+    "category": "Electronics",
+    "stock": 5,
+    "createdAt": "2025-11-17T07:39:00Z"
+  },
+  {
+    "id": 88,
+    "title": "Atlas Leather Belt",
+    "price": 27.99,
+    "description": "Full-grain leather belt with a brushed metal buckle, built to last for years. Available in Black.",
+    "image": "https://loremflickr.com/400/400/leather,belt/all?lock=88",
+    "category": "Accessories",
+    "stock": 120,
+    "createdAt": "2026-01-29T09:25:00Z"
+  },
+  {
+    "id": 89,
+    "title": "Vertex Cotton Bath Towels",
+    "price": 57.0,
+    "description": "Set of absorbent, quick-drying cotton bath towels with a soft, plush feel. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/bath,towels/all?lock=89",
+    "category": "Home",
+    "stock": 3,
+    "createdAt": "2026-03-17T15:48:00Z"
+  },
+  {
+    "id": 90,
+    "title": "Lumen Wool Scarf",
+    "price": 63.99,
+    "description": "Soft woven wool scarf, long enough to wrap twice for cold-weather warmth. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/wool,scarf/all?lock=90",
+    "category": "Accessories",
+    "stock": 0,
+    "createdAt": "2025-12-23T21:32:00Z"
+  },
+  {
+    "id": 91,
+    "title": "Atlas Noise-Cancelling Headphones",
+    "price": 340.99,
+    "description": "Over-ear Bluetooth headphones with active noise cancellation and plush ear cushions. Available in White.",
+    "image": "https://loremflickr.com/400/400/headphones/all?lock=91",
+    "category": "Electronics",
+    "stock": 12,
+    "createdAt": "2026-06-05T09:23:00Z"
+  },
+  {
+    "id": 92,
+    "title": "Lumen Sunglasses",
+    "price": 62.99,
+    "description": "UV400 polarized sunglasses in a lightweight, durable frame. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/sunglasses/all?lock=92",
+    "category": "Accessories",
+    "stock": 25,
+    "createdAt": "2026-07-10T18:48:00Z"
+  },
+  {
+    "id": 93,
+    "title": "Lumen Wool Sweater",
+    "price": 65.99,
+    "description": "Warm knit sweater in a soft wool blend with ribbed cuffs and hem. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/wool,sweater/all?lock=93",
+    "category": "Clothing",
+    "stock": 60,
+    "createdAt": "2026-08-20T01:17:00Z"
+  },
+  {
+    "id": 94,
+    "title": "Halo French Press",
+    "price": 22.99,
+    "description": "Stainless steel French press coffee maker with a fine mesh filter, brews up to 8 cups. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/french,press/all?lock=94",
+    "category": "Home",
+    "stock": 25,
+    "createdAt": "2026-07-24T09:35:00Z"
+  },
+  {
+    "id": 95,
+    "title": "Ridge Storage Basket",
+    "price": 17.0,
+    "description": "Woven storage basket with handles, great for blankets, toys, or laundry. Available in Black.",
+    "image": "https://loremflickr.com/400/400/woven,basket/all?lock=95",
+    "category": "Home",
+    "stock": 0,
+    "createdAt": "2025-10-22T05:08:00Z"
+  },
+  {
+    "id": 96,
+    "title": "Zephyr Foam Roller",
+    "price": 39.0,
+    "description": "High-density foam roller for muscle recovery and stretching. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/foam,roller/all?lock=96",
+    "category": "Sports",
+    "stock": 60,
+    "createdAt": "2025-11-01T23:13:00Z"
+  },
+  {
+    "id": 97,
+    "title": "Urban Leather Belt",
+    "price": 19.99,
+    "description": "Full-grain leather belt with a brushed metal buckle, built to last for years. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/leather,belt/all?lock=97",
+    "category": "Accessories",
+    "stock": 3,
+    "createdAt": "2025-10-24T13:41:00Z"
+  },
+  {
+    "id": 98,
+    "title": "Solace Cutting Board",
+    "price": 40.99,
+    "description": "Solid acacia wood cutting board with a juice groove and an easy-grip handle. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/cutting,board/all?lock=98",
+    "category": "Home",
+    "stock": 12,
+    "createdAt": "2026-02-08T04:49:00Z"
+  },
+  {
+    "id": 99,
+    "title": "Urban Shaker Bottle",
+    "price": 25.99,
+    "description": "Leak-proof shaker bottle with a mixing ball and measurement markings for protein shakes. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/shaker,bottle/all?lock=99",
+    "category": "Sports",
+    "stock": 0,
+    "createdAt": "2026-05-18T13:51:00Z"
+  },
+  {
+    "id": 100,
+    "title": "Onyx Tennis Racket",
+    "price": 151.99,
+    "description": "Graphite tennis racket with a balanced frame for control and power. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/tennis,racket/all?lock=100",
+    "category": "Sports",
+    "stock": 120,
+    "createdAt": "2026-02-10T22:28:00Z"
+  },
+  {
+    "id": 101,
+    "title": "Urban Trail Sneaker",
+    "price": 118.99,
+    "description": "Grippy trail sneaker with a rugged outsole and reinforced toe for uneven terrain. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/trail,shoes/all?lock=101",
+    "category": "Shoes",
+    "stock": 0,
+    "createdAt": "2026-06-06T20:17:00Z"
+  },
+  {
+    "id": 102,
+    "title": "Atlas Analog Watch",
+    "price": 141.99,
+    "description": "Analog quartz watch with a stainless steel case and a leather strap. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/wristwatch/all?lock=102",
+    "category": "Accessories",
+    "stock": 80,
+    "createdAt": "2026-06-09T11:13:00Z"
+  },
+  {
+    "id": 103,
+    "title": "Arden Cotton T-Shirt",
+    "price": 15.0,
+    "description": "Soft 100% cotton crew-neck t-shirt with a true-to-size, everyday fit. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/tshirt/all?lock=103",
+    "category": "Clothing",
+    "stock": 120,
+    "createdAt": "2026-03-25T07:25:00Z"
+  },
+  {
+    "id": 104,
+    "title": "Kite Wool Sweater",
+    "price": 61.99,
+    "description": "Warm knit sweater in a soft wool blend with ribbed cuffs and hem. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/wool,sweater/all?lock=104",
+    "category": "Clothing",
+    "stock": 40,
+    "createdAt": "2026-06-18T17:00:00Z"
+  },
+  {
+    "id": 105,
+    "title": "Onyx Slip-On",
+    "price": 77.99,
+    "description": "Easy slip-on shoe with a flexible sole and soft lining for effortless everyday wear. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/casual,shoes/all?lock=105",
+    "category": "Shoes",
+    "stock": 12,
+    "createdAt": "2025-10-18T05:00:00Z"
+  },
+  {
+    "id": 106,
+    "title": "Urban Denim Jacket",
+    "price": 89.0,
+    "description": "Classic denim jacket with a button front, chest pockets, and a slightly relaxed fit. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/denim,jacket/all?lock=106",
+    "category": "Clothing",
+    "stock": 8,
+    "createdAt": "2026-07-17T11:51:00Z"
+  },
+  {
+    "id": 107,
+    "title": "Ridge Canvas Sneaker",
+    "price": 59.99,
+    "description": "Classic canvas sneaker with a vulcanized rubber sole and a lightweight, breathable fit. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/canvas,shoes/all?lock=107",
+    "category": "Shoes",
+    "stock": 5,
+    "createdAt": "2025-09-29T03:27:00Z"
+  },
+  {
+    "id": 108,
+    "title": "Zephyr Mechanical Keyboard",
+    "price": 81.0,
+    "description": "Mechanical keyboard with tactile switches, backlit keys, and a durable aluminum frame. Available in Black.",
+    "image": "https://loremflickr.com/400/400/mechanical,keyboard/all?lock=108",
+    "category": "Electronics",
+    "stock": 5,
+    "createdAt": "2026-07-08T23:23:00Z"
+  },
+  {
+    "id": 109,
+    "title": "Vertex Analog Watch",
+    "price": 112.0,
+    "description": "Analog quartz watch with a stainless steel case and a leather strap. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/wristwatch/all?lock=109",
+    "category": "Accessories",
+    "stock": 15,
+    "createdAt": "2026-03-31T10:29:00Z"
+  },
+  {
+    "id": 110,
+    "title": "Zephyr Crossbody Bag",
+    "price": 62.99,
+    "description": "Compact crossbody bag with an adjustable strap and zip pockets for daily essentials. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/crossbody,bag/all?lock=110",
+    "category": "Accessories",
+    "stock": 0,
+    "createdAt": "2026-04-23T12:06:00Z"
+  },
+  {
+    "id": 111,
+    "title": "Onyx Leather Loafer",
+    "price": 110.99,
+    "description": "Slip-on leather loafer with a cushioned insole, ideal for the office or dinner out. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/leather,loafers/all?lock=111",
+    "category": "Shoes",
+    "stock": 3,
+    "createdAt": "2026-01-27T00:50:00Z"
+  },
+  {
+    "id": 112,
+    "title": "Urban Mechanical Keyboard",
+    "price": 140.0,
+    "description": "Mechanical keyboard with tactile switches, backlit keys, and a durable aluminum frame. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/mechanical,keyboard/all?lock=112",
+    "category": "Electronics",
+    "stock": 25,
+    "createdAt": "2026-04-06T12:29:00Z"
+  },
+  {
+    "id": 113,
+    "title": "Atlas Beanie",
+    "price": 19.99,
+    "description": "Stretchy knit beanie with a fold-over cuff, soft and warm for winter. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/beanie/all?lock=113",
+    "category": "Accessories",
+    "stock": 12,
+    "createdAt": "2026-05-24T21:46:00Z"
+  },
+  {
+    "id": 114,
+    "title": "Vertex Smart Watch",
+    "price": 129.99,
+    "description": "Smart watch with heart-rate tracking, sleep monitoring, notifications, and a bright always-on display. Available in Black.",
+    "image": "https://loremflickr.com/400/400/smartwatch/all?lock=114",
+    "category": "Electronics",
+    "stock": 20,
+    "createdAt": "2025-12-14T01:45:00Z"
+  },
+  {
+    "id": 115,
+    "title": "Atlas Desk Lamp",
+    "price": 44.99,
+    "description": "LED desk lamp with adjustable brightness, color temperature, and a flexible neck. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/desk,lamp/all?lock=115",
+    "category": "Home",
+    "stock": 120,
+    "createdAt": "2026-09-02T20:25:00Z"
+  },
+  {
+    "id": 116,
+    "title": "Atlas Puffer Vest",
+    "price": 119.99,
+    "description": "Lightweight insulated puffer vest that adds core warmth without bulk. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/puffer,vest/all?lock=116",
+    "category": "Clothing",
+    "stock": 60,
+    "createdAt": "2026-02-19T03:21:00Z"
+  },
+  {
+    "id": 117,
+    "title": "Vertex Cycling Gloves",
+    "price": 21.99,
+    "description": "Padded cycling gloves with breathable mesh and grip-enhancing palms. Available in Navy.",
+    "image": "https://loremflickr.com/400/400/cycling,gloves/all?lock=117",
+    "category": "Sports",
+    "stock": 25,
+    "createdAt": "2025-11-26T02:23:00Z"
+  },
+  {
+    "id": 118,
+    "title": "Zephyr Webcam",
+    "price": 102.99,
+    "description": "Full HD webcam with autofocus and a built-in noise-reducing microphone for video calls. Available in White.",
+    "image": "https://loremflickr.com/400/400/webcam/all?lock=118",
+    "category": "Electronics",
+    "stock": 40,
+    "createdAt": "2026-01-24T21:11:00Z"
+  },
+  {
+    "id": 119,
+    "title": "Kite Baseball Cap",
+    "price": 39.0,
+    "description": "Adjustable cotton baseball cap with an embroidered logo and a curved brim. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/baseball,cap/all?lock=119",
+    "category": "Accessories",
+    "stock": 40,
+    "createdAt": "2025-12-25T04:25:00Z"
+  },
+  {
+    "id": 120,
+    "title": "Solace Gaming Mouse",
+    "price": 32.99,
+    "description": "Ergonomic gaming mouse with a high-DPI sensor, programmable buttons, and RGB lighting. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/gaming,mouse/all?lock=120",
+    "category": "Electronics",
+    "stock": 3,
+    "createdAt": "2025-10-03T17:09:00Z"
+  },
+  {
+    "id": 121,
+    "title": "Onyx Ceramic Mug Set",
+    "price": 39.0,
+    "description": "Set of four glazed ceramic mugs, dishwasher and microwave safe. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/ceramic,mugs/all?lock=121",
+    "category": "Home",
+    "stock": 15,
+    "createdAt": "2026-02-11T09:57:00Z"
+  },
+  {
+    "id": 122,
+    "title": "Nova Crossbody Bag",
+    "price": 34.99,
+    "description": "Compact crossbody bag with an adjustable strap and zip pockets for daily essentials. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/crossbody,bag/all?lock=122",
+    "category": "Accessories",
+    "stock": 120,
+    "createdAt": "2026-02-17T09:44:00Z"
+  },
+  {
+    "id": 123,
+    "title": "Urban Storage Jars",
+    "price": 45.99,
+    "description": "Set of airtight glass storage jars that keep pantry staples fresh. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/glass,jars/all?lock=123",
+    "category": "Home",
+    "stock": 25,
+    "createdAt": "2026-05-15T04:28:00Z"
+  },
+  {
+    "id": 124,
+    "title": "Zephyr Tennis Racket",
+    "price": 126.99,
+    "description": "Graphite tennis racket with a balanced frame for control and power. Available in Black.",
+    "image": "https://loremflickr.com/400/400/tennis,racket/all?lock=124",
+    "category": "Sports",
+    "stock": 40,
+    "createdAt": "2026-05-26T06:21:00Z"
+  },
+  {
+    "id": 125,
+    "title": "Ridge Sunglasses",
+    "price": 28.0,
+    "description": "UV400 polarized sunglasses in a lightweight, durable frame. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/sunglasses/all?lock=125",
+    "category": "Accessories",
+    "stock": 0,
+    "createdAt": "2026-01-06T20:25:00Z"
+  },
+  {
+    "id": 126,
+    "title": "Kite Rain Jacket",
+    "price": 130.0,
+    "description": "Waterproof, packable rain jacket with taped seams and an adjustable hood. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/rain,jacket/all?lock=126",
+    "category": "Clothing",
+    "stock": 15,
+    "createdAt": "2025-12-08T05:07:00Z"
+  },
+  {
+    "id": 127,
+    "title": "Kite Leather Loafer",
+    "price": 116.99,
+    "description": "Slip-on leather loafer with a cushioned insole, ideal for the office or dinner out. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/leather,loafers/all?lock=127",
+    "category": "Shoes",
+    "stock": 40,
+    "createdAt": "2026-08-16T09:43:00Z"
+  },
+  {
+    "id": 128,
+    "title": "Atlas Canvas Backpack",
+    "price": 90.0,
+    "description": "Roomy canvas backpack with a padded laptop sleeve and a water-resistant base. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/backpack/all?lock=128",
+    "category": "Accessories",
+    "stock": 120,
+    "createdAt": "2026-05-21T02:30:00Z"
+  },
+  {
+    "id": 129,
+    "title": "Kite Joggers",
+    "price": 33.0,
+    "description": "Tapered joggers with an elastic waistband, side pockets, and a soft brushed interior. Available in Black.",
+    "image": "https://loremflickr.com/400/400/sweatpants/all?lock=129",
+    "category": "Clothing",
+    "stock": 5,
+    "createdAt": "2026-08-08T03:43:00Z"
+  },
+  {
+    "id": 130,
+    "title": "Lumen Throw Blanket",
+    "price": 70.0,
+    "description": "Soft knit throw blanket, cozy over a sofa or bed. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/throw,blanket/all?lock=130",
+    "category": "Home",
+    "stock": 40,
+    "createdAt": "2026-06-19T11:09:00Z"
+  },
+  {
+    "id": 131,
+    "title": "Vertex Resistance Bands",
+    "price": 34.0,
+    "description": "Set of five resistance bands in varying tensions for strength and mobility workouts. Available in Sand.",
+    "image": "https://loremflickr.com/400/400/resistance,bands/all?lock=131",
+    "category": "Sports",
+    "stock": 60,
+    "createdAt": "2025-10-11T10:18:00Z"
+  },
+  {
+    "id": 132,
+    "title": "Zephyr Wireless Earbuds",
+    "price": 46.0,
+    "description": "True wireless earbuds with Bluetooth pairing, a compact charging case, and up to 24 hours of total playtime. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/earbuds/all?lock=132",
+    "category": "Electronics",
+    "stock": 40,
+    "createdAt": "2025-12-14T23:28:00Z"
+  },
+  {
+    "id": 133,
+    "title": "Zephyr Scented Candle",
+    "price": 37.0,
+    "description": "Hand-poured soy wax candle with a long, clean burn of about 40 hours. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/scented,candle/all?lock=133",
+    "category": "Home",
+    "stock": 3,
+    "createdAt": "2026-05-24T08:30:00Z"
+  },
+  {
+    "id": 134,
+    "title": "Nova Rain Jacket",
+    "price": 104.99,
+    "description": "Waterproof, packable rain jacket with taped seams and an adjustable hood. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/rain,jacket/all?lock=134",
+    "category": "Clothing",
+    "stock": 5,
+    "createdAt": "2026-02-06T01:21:00Z"
+  },
+  {
+    "id": 135,
+    "title": "Nova Wireless Earbuds",
+    "price": 32.0,
+    "description": "True wireless earbuds with Bluetooth pairing, a compact charging case, and up to 24 hours of total playtime. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/earbuds/all?lock=135",
+    "category": "Electronics",
+    "stock": 12,
+    "createdAt": "2025-12-30T20:45:00Z"
+  },
+  {
+    "id": 136,
+    "title": "Nova Trail Sneaker",
+    "price": 120.0,
+    "description": "Grippy trail sneaker with a rugged outsole and reinforced toe for uneven terrain. Available in White.",
+    "image": "https://loremflickr.com/400/400/trail,shoes/all?lock=136",
+    "category": "Shoes",
+    "stock": 80,
+    "createdAt": "2025-10-28T05:37:00Z"
+  },
+  {
+    "id": 137,
+    "title": "Atlas Hoodie",
+    "price": 79.99,
+    "description": "Midweight fleece-lined hoodie with a kangaroo pocket and an adjustable drawstring hood. Available in Burgundy.",
+    "image": "https://loremflickr.com/400/400/hoodie/all?lock=137",
+    "category": "Clothing",
+    "stock": 120,
+    "createdAt": "2026-08-07T14:53:00Z"
+  },
+  {
+    "id": 138,
+    "title": "Ridge Slip-On",
+    "price": 71.99,
+    "description": "Easy slip-on shoe with a flexible sole and soft lining for effortless everyday wear. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/casual,shoes/all?lock=138",
+    "category": "Shoes",
+    "stock": 8,
+    "createdAt": "2026-02-17T18:37:00Z"
+  },
+  {
+    "id": 139,
+    "title": "Lumen Polo Shirt",
+    "price": 60.0,
+    "description": "Breathable piqu\u00e9 polo shirt with a two-button placket and a classic collar. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/polo,shirt/all?lock=139",
+    "category": "Clothing",
+    "stock": 120,
+    "createdAt": "2025-10-17T00:51:00Z"
+  },
+  {
+    "id": 140,
+    "title": "Zephyr Gaming Mouse",
+    "price": 77.99,
+    "description": "Ergonomic gaming mouse with a high-DPI sensor, programmable buttons, and RGB lighting. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/gaming,mouse/all?lock=140",
+    "category": "Electronics",
+    "stock": 60,
+    "createdAt": "2025-11-02T22:14:00Z"
+  },
+  {
+    "id": 141,
+    "title": "Lumen Puffer Vest",
+    "price": 125.0,
+    "description": "Lightweight insulated puffer vest that adds core warmth without bulk. Available in Olive.",
+    "image": "https://loremflickr.com/400/400/puffer,vest/all?lock=141",
+    "category": "Clothing",
+    "stock": 5,
+    "createdAt": "2025-11-13T04:56:00Z"
+  },
+  {
+    "id": 142,
+    "title": "Atlas Scented Candle",
+    "price": 14.99,
+    "description": "Hand-poured soy wax candle with a long, clean burn of about 40 hours. Available in Black.",
+    "image": "https://loremflickr.com/400/400/scented,candle/all?lock=142",
+    "category": "Home",
+    "stock": 20,
+    "createdAt": "2026-05-04T01:21:00Z"
+  },
+  {
+    "id": 143,
+    "title": "Onyx Court Classic",
+    "price": 77.99,
+    "description": "Low-top leather sneaker with a clean court-inspired profile and a durable rubber sole. Available in White.",
+    "image": "https://loremflickr.com/400/400/leather,sneakers/all?lock=143",
+    "category": "Shoes",
+    "stock": 40,
+    "createdAt": "2026-04-25T16:56:00Z"
+  },
+  {
+    "id": 144,
+    "title": "Urban Gym Duffel",
+    "price": 88.99,
+    "description": "Spacious gym duffel bag with a ventilated shoe compartment and a padded strap. Available in Grey.",
+    "image": "https://loremflickr.com/400/400/gym,bag/all?lock=144",
+    "category": "Sports",
+    "stock": 8,
+    "createdAt": "2025-10-03T12:01:00Z"
+  },
+  {
+    "id": 145,
+    "title": "Lumen Slip-On",
+    "price": 60.0,
+    "description": "Easy slip-on shoe with a flexible sole and soft lining for effortless everyday wear. Available in Black.",
+    "image": "https://loremflickr.com/400/400/casual,shoes/all?lock=145",
+    "category": "Shoes",
+    "stock": 60,
+    "createdAt": "2025-11-07T15:17:00Z"
+  },
+  {
+    "id": 146,
+    "title": "Atlas Chelsea Boot",
+    "price": 96.0,
+    "description": "Ankle-high Chelsea boot with elastic side panels and a sturdy stacked heel. Available in Forest Green.",
+    "image": "https://loremflickr.com/400/400/chelsea,boots/all?lock=146",
+    "category": "Shoes",
+    "stock": 12,
+    "createdAt": "2026-02-28T23:02:00Z"
+  },
+  {
+    "id": 147,
+    "title": "Kite Runner",
+    "price": 62.99,
+    "description": "Lightweight running shoe with a cushioned midsole and breathable mesh upper for daily miles. Available in Black.",
+    "image": "https://loremflickr.com/400/400/running,shoes/all?lock=147",
+    "category": "Shoes",
+    "stock": 0,
+    "createdAt": "2026-08-04T18:33:00Z"
+  },
+  {
+    "id": 148,
+    "title": "Vertex Joggers",
+    "price": 46.99,
+    "description": "Tapered joggers with an elastic waistband, side pockets, and a soft brushed interior. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/sweatpants/all?lock=148",
+    "category": "Clothing",
+    "stock": 5,
+    "createdAt": "2026-03-17T11:39:00Z"
+  },
+  {
+    "id": 149,
+    "title": "Nova USB-C Hub",
+    "price": 64.0,
+    "description": "Multiport USB-C hub with HDMI, USB-A, and SD card slots plus pass-through charging. Available in Charcoal.",
+    "image": "https://loremflickr.com/400/400/usb,hub/all?lock=149",
+    "category": "Electronics",
+    "stock": 3,
+    "createdAt": "2026-01-30T09:13:00Z"
+  },
+  {
+    "id": 150,
+    "title": "Halo Yoga Mat",
+    "price": 68.99,
+    "description": "Non-slip yoga mat with extra cushioning for joints, easy to roll and carry. Available in Sky Blue.",
+    "image": "https://loremflickr.com/400/400/yoga,mat/all?lock=150",
+    "category": "Sports",
+    "stock": 0,
+    "createdAt": "2025-10-29T23:55:00Z"
+  }
+]

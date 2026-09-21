@@ -6,7 +6,7 @@ import React from 'react'
 import { auth } from '../firebase/firebase.config';
 import * as Yup from "yup"; // Correct import for Yup
 import { useRouter } from 'next/navigation';
-// import { useRouter } from "next/navigation";
+
 import { toast } from 'react-toastify';
 
 export default function Login() {
@@ -29,8 +29,9 @@ export default function Login() {
     async function register(values) {
         try {
 
-            console.log(values);
             const loggedUseer = await signInWithEmailAndPassword(auth, values.email, values.password)
+            const id = loggedUseer._tokenResponse.idToken
+            localStorage.setItem("id", JSON.stringify(id))
             router.push("/")
 
         }
