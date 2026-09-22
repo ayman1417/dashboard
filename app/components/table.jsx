@@ -1,5 +1,5 @@
 "use client";
-import React from 'react'
+import React, { useRef } from 'react'
 import Link from "next/link";
 import data from "../data/products.json";
 import { ArrowDownUp, ChevronDown, ChevronLeft, ChevronRight, MoveDown, MoveUp } from "lucide-react";
@@ -7,7 +7,9 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { filterByCategory, sortByPrice, resetProducts, sortByStock } from "../redux/productsSlice";
 import { useRouter } from "next/navigation";
-
+import * as XLSX from "xlsx";
+import html2pdf from "html2pdf.js";
+import ProductsPdf from './ProductsPdf';
 
 export default function Table({ }) {
 
@@ -23,6 +25,8 @@ export default function Table({ }) {
     const totalPages = 5;
     const startIndex = (currentPage - 1) * productsInPage;
     const currentProducts = products.slice(startIndex, startIndex + productsInPage);
+    const tableRef = useRef(null);
+    const [loading, setLoading] = useState(false);
 
 
 
@@ -51,11 +55,84 @@ export default function Table({ }) {
         setCurrentPage(1);
         setCategoryOpen(false);
     }
+    function excelDownload() {
+        const excelData = currentProducts.map((p) => ({
+            Product: p.title,
+            Category: p.category,
+            Price: p.price,
+            Stock: p.stock,
+            "Created Date": new Date(p.createdAt).toLocaleDateString(),
+        }));
+
+        const worksheet = XLSX.utils.json_to_sheet(excelData);
+
+        const workbook = XLSX.utils.book_new();
+
+        XLSX.utils.book_append_sheet(
+            workbook,
+            worksheet,
+            "Products"
+        );
+
+        XLSX.writeFile(
+            workbook,
+            "products-report.xlsx"
+        );
+    }
+
+    async function pdfDownload() {
+        setLoading(true);
+
+        try {
+            await html2pdf()
+                .set({
+                    margin: 10,
+                    filename: "products-report.pdf",
+                    image: { type: "jpeg", quality: 0.98 },
+                    html2canvas: { scale: 2 },
+                    jsPDF: {
+                        unit: "mm",
+                        format: "a4",
+                        orientation: "landscape",
+                    },
+                })
+                .from(tableRef.current)
+                .save();
+        } finally {
+            setLoading(false);
+        }
+    }
+
 
     return (
-        <div className="min-h-dvh p-5  ml-[15%] ">
 
-
+        <div className="">
+            <div
+                ref={tableRef}
+                style={{
+                    position: "absolute",
+                    left: "-99999px",
+                    top: "0",
+                }}
+            >
+                <ProductsPdf products={currentProducts} />
+            </div>
+            <div className=" flex gap-3">
+                <button style={{
+                    backgroundColor: "#ef4444",
+                    color: "#ffffff",
+                    padding: "8px 16px",
+                    borderRadius: "6px",
+                    fontWeight: "600",
+                    cursor: "pointer",
+                    border: "none",
+                }} type="button" onClick={pdfDownload}>
+                    Download PDF
+                </button>
+                <button className='bg-green-500 hover:bg-green-600 duration-200 rounded-md p-2 text-white cursor-pointer md:text-md text-sm font-semibold' type="button" onClick={excelDownload}>
+                    Download Excel
+                </button>
+            </div>
             <div className=" overflow-x-auto">
                 <table className="w-full border-collapse mb-5">
 
@@ -209,7 +286,9 @@ export default function Table({ }) {
 
                 </div>
             </div>
+
         </div>
+
 
     )
 }
