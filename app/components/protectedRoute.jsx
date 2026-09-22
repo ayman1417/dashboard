@@ -14,10 +14,10 @@ export default function ProtectedRoute({ children }) {
             router.replace("/login");
             return;
         }
-        
+
         setLoading(false);
     }, [router]);
-    
+
     if (loading) {
         return (
             <div className="min-h-dvh flex items-center justify-center">

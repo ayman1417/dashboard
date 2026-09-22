@@ -1,17 +1,41 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Sidebar from "./sidebar";
 
 export default function SidebarWrapper() {
     const pathname = usePathname();
-    const id = localStorage.getItem("id");
-    const hideSidebar = pathname === "/login" || pathname === "/signup";
+    const [id, setId] = useState(null);
+    const [isClient, setIsClient] = useState(false);
 
-    if (!id || hideSidebar) {
-        localStorage.removeItem("id")
+    useEffect(() => {
+        setIsClient(true);
+
+        const checkId = () => {
+            const storedId = localStorage.getItem("id");
+            setId(storedId);
+        };
+
+        checkId();
+
+        window.addEventListener("focus", checkId);
+
+        return () => {
+            window.removeEventListener("focus", checkId);
+        };
+    }, []);
+
+    const hideSidebar =
+        pathname === "/login" || pathname === "/signup";
+
+    if (!isClient) {
         return null;
     }
-    return <Sidebar />;
 
+    if (!id || hideSidebar) {
+        return null;
+    }
+
+    return <Sidebar />;
 }
