@@ -35,15 +35,7 @@ export default function ProductsPdf({ products = [] }) {
 
     return (
         <div>
-            <button
-                onClick={handleDownload}
-                disabled={loading}
-                style={styles.button}
-            >
-                {loading ? "Generating..." : "Download PDF"}
-            </button>
-
-
+          
 
             <div ref={tableRef} style={styles.page}>
                 <h1 style={styles.title}>

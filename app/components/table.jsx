@@ -83,7 +83,10 @@ export default function Table({ }) {
     async function pdfDownload() {
         setLoading(true);
 
+        await new Promise((resolve) => setTimeout(resolve, 300));
+
         try {
+
             await html2pdf()
                 .set({
                     margin: 10,
@@ -107,16 +110,7 @@ export default function Table({ }) {
     return (
 
         <div className="">
-            <div
-                ref={tableRef}
-                style={{
-                    position: "absolute",
-                    left: "-99999px",
-                    top: "0",
-                }}
-            >
-                <ProductsPdf products={currentProducts} />
-            </div>
+
             <div className=" flex gap-3">
                 <button style={{
                     backgroundColor: "#ef4444",
@@ -124,10 +118,12 @@ export default function Table({ }) {
                     padding: "8px 16px",
                     borderRadius: "6px",
                     fontWeight: "600",
-                    cursor: "pointer",
                     border: "none",
+                    cursor: loading ? "not-allowed" : "pointer",
+                    border: "none",
+                    opacity: loading ? 0.7 : 1,
                 }} type="button" onClick={pdfDownload}>
-                    Download PDF
+                    {loading ? "Generating PDF..." : "Download PDF"}
                 </button>
                 <button className='bg-green-500 hover:bg-green-600 duration-200 rounded-md p-2 text-white cursor-pointer md:text-md text-sm font-semibold' type="button" onClick={excelDownload}>
                     Download Excel
@@ -286,7 +282,15 @@ export default function Table({ }) {
 
                 </div>
             </div>
+            <div
+                ref={tableRef}
+                style={{
+                    display: loading ? "block" : "none",
 
+                }}
+            >
+                <ProductsPdf products={currentProducts} />
+            </div>
         </div>
 
 
