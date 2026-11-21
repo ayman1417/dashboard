@@ -1,6 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'picsum.photos',
+      },
+      {
+        protocol: 'https',
+        hostname: 'fastly.picsum.photos',
+      },
+      {
+        protocol: 'https',
+        hostname: 'loremflickr.com',
+      },
+    ],
+  },
 };
 
 export default nextConfig;

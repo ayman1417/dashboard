@@ -1,24 +1,36 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
+
+function subscribe(callback) {
+    window.addEventListener("storage", callback);
+    window.addEventListener("auth-change", callback);
+    return () => {
+        window.removeEventListener("storage", callback);
+        window.removeEventListener("auth-change", callback);
+    };
+}
+
+function getSnapshot() {
+    return localStorage.getItem("id");
+}
+
+function getServerSnapshot() {
+    return "__server__";
+}
 
 export default function ProtectedRoute({ children }) {
     const router = useRouter();
-    const [loading, setLoading] = useState(true);
+    const id = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
     useEffect(() => {
-        const id = localStorage.getItem("id");
-
-        if (!id) {
+        if (id === null) {
             router.replace("/login");
-            return;
         }
+    }, [id, router]);
 
-        setLoading(false);
-    }, [router]);
-
-    if (loading) {
+    if (id === "__server__" || id === null) {
         return (
             <div className="min-h-dvh flex items-center justify-center">
                 <div className="h-10 w-10 animate-spin rounded-full border-4 border-gray-200 border-t-blue-600" />

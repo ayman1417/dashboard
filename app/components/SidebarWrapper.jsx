@@ -1,37 +1,34 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import Sidebar from "./sidebar";
 
+function subscribe(callback) {
+    window.addEventListener("storage", callback);
+    window.addEventListener("auth-change", callback);
+    window.addEventListener("focus", callback);
+    return () => {
+        window.removeEventListener("storage", callback);
+        window.removeEventListener("auth-change", callback);
+        window.removeEventListener("focus", callback);
+    };
+}
+
+function getSnapshot() {
+    return localStorage.getItem("id");
+}
+
+function getServerSnapshot() {
+    return null;
+}
+
 export default function SidebarWrapper() {
     const pathname = usePathname();
-    const [id, setId] = useState(null);
-    const [isClient, setIsClient] = useState(false);
-
-    useEffect(() => {
-        setIsClient(true);
-
-        const checkId = () => {
-            const storedId = localStorage.getItem("id");
-            setId(storedId);
-        };
-
-        checkId();
-
-        window.addEventListener("focus", checkId);
-
-        return () => {
-            window.removeEventListener("focus", checkId);
-        };
-    }, []);
+    const id = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
     const hideSidebar =
         pathname === "/login" || pathname === "/signup";
-
-    if (!isClient) {
-        return null;
-    }
 
     if (!id || hideSidebar) {
         return null;

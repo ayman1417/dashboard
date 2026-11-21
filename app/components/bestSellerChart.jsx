@@ -1,9 +1,7 @@
-
 "use client";
 
 import React from "react";
 import products from "../data/products.json";
-
 import {
   BarChart,
   Bar,
@@ -27,7 +25,7 @@ export default function BestSellerChart() {
         };
       }
 
-      acc[category].totalPrice += product.price;
+      acc[category].totalPrice = Math.round((acc[category].totalPrice + product.price) * 100) / 100;
 
       return acc;
     }, {})
@@ -44,7 +42,7 @@ export default function BestSellerChart() {
       </h2>
 
       <div className="h-[200px] md:h-[350px] w-full text-xs md:text-md">
-        <ResponsiveContainer width="100%" height="100%" className={" text-xs md:text-md"}>
+        <ResponsiveContainer width="100%" height="100%" className={"text-xs md:text-md"}>
           <BarChart
             data={bestSellerCategories}
             margin={{
@@ -53,18 +51,12 @@ export default function BestSellerChart() {
               left: 0,
               bottom: 5,
             }}
-            
           >
             <CartesianGrid strokeDasharray="3 3" />
-
             <XAxis dataKey="category" />
-
             <YAxis />
-
             <Tooltip />
-
             <Legend />
-
             <Bar
               dataKey="totalPrice"
               name="Total Price"
